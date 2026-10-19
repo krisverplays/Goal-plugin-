@@ -1,0 +1,143 @@
+cooldown-seconds: 600
+
+bossbar:
+  color: "GREEN"
+  style: "SOLID"
+  geyser-delay-ticks: 60
+  format: "&e&lGOAL: &f%goal_name% &7| &a%current%&7/&a%target% &8(&b%percent%%%&8)"
+
+rewards:
+  max-diamonds: 16
+  max-emeralds: 24
+  max-iron-ingots: 32
+  max-golden-apples: 6
+  max-xp: 500
+  custom-commands: []
+
+goals:
+  mine_stone:
+    name: "Mine Stone & Cobblestone"
+    type: "BLOCK_BREAK"
+    targets: ["STONE", "COBBLESTONE", "DEEPSLATE", "COBBLED_DEEPSLATE"]
+    base-amount: 200
+    per-player-amount: 150
+
+  chop_wood:
+    name: "Chop Any Wood Logs"
+    type: "BLOCK_BREAK"
+    targets: ["OAK_LOG", "BIRCH_LOG", "SPRUCE_LOG", "JUNGLE_LOG", "ACACIA_LOG", "DARK_OAK_LOG", "MANGROVE_LOG", "CHERRY_LOG"]
+    base-amount: 80
+    per-player-amount: 60
+
+  mine_coal:
+    name: "Mine Coal Ores"
+    type: "BLOCK_BREAK"
+    targets: ["COAL_ORE", "DEEPSLATE_COAL_ORE"]
+    base-amount: 40
+    per-player-amount: 30
+
+  mine_iron:
+    name: "Mine Iron Ores"
+    type: "BLOCK_BREAK"
+    targets: ["IRON_ORE", "DEEPSLATE_IRON_ORE"]
+    base-amount: 30
+    per-player-amount: 20
+
+  mine_copper:
+    name: "Mine Copper Ores"
+    type: "BLOCK_BREAK"
+    targets: ["COPPER_ORE", "DEEPSLATE_COPPER_ORE"]
+    base-amount: 40
+    per-player-amount: 25
+
+  mine_gold:
+    name: "Mine Gold Ores"
+    type: "BLOCK_BREAK"
+    targets: ["GOLD_ORE", "DEEPSLATE_GOLD_ORE", "NETHER_GOLD_ORE"]
+    base-amount: 25
+    per-player-amount: 15
+
+  mine_redstone:
+    name: "Mine Redstone Ores"
+    type: "BLOCK_BREAK"
+    targets: ["REDSTONE_ORE", "DEEPSLATE_REDSTONE_ORE"]
+    base-amount: 25
+    per-player-amount: 20
+
+  mine_quartz:
+    name: "Mine Nether Quartz"
+    type: "BLOCK_BREAK"
+    targets: ["NETHER_QUARTZ_ORE"]
+    base-amount: 40
+    per-player-amount: 30
+
+  kill_zombies:
+    name: "Slay Zombies"
+    type: "ENTITY_KILL"
+    targets: ["ZOMBIE", "ZOMBIE_VILLAGER", "HUSK", "DROWNED"]
+    base-amount: 30
+    per-player-amount: 20
+
+  kill_skeletons:
+    name: "Slay Skeletons"
+    type: "ENTITY_KILL"
+    targets: ["SKELETON", "STRAY"]
+    base-amount: 25
+    per-player-amount: 15
+
+  kill_creepers:
+    name: "Slay Creepers"
+    type: "ENTITY_KILL"
+    targets: ["CREEPER"]
+    base-amount: 20
+    per-player-amount: 12
+
+  kill_spiders:
+    name: "Slay Spiders"
+    type: "ENTITY_KILL"
+    targets: ["SPIDER", "CAVE_SPIDER"]
+    base-amount: 25
+    per-player-amount: 15
+
+  kill_endermen:
+    name: "Slay Endermen"
+    type: "ENTITY_KILL"
+    targets: ["ENDERMAN"]
+    base-amount: 15
+    per-player-amount: 10
+
+  catch_fish:
+    name: "Catch Anything While Fishing"
+    type: "FISH_CATCH"
+    targets: ["ANY"]
+    base-amount: 15
+    per-player-amount: 10
+
+  smelt_items:
+    name: "Smelt Items in Furnaces"
+    type: "FURNACE_EXTRACT"
+    targets: ["ANY"]
+    base-amount: 64
+    per-player-amount: 48
+
+  place_blocks:
+    name: "Build & Place Blocks"
+    type: "BLOCK_PLACE"
+    targets: ["ANY"]
+    base-amount: 250
+    per-player-amount: 150
+
+  collect_xp:
+    name: "Collect Experience Points"
+    type: "EXP_GAIN"
+    targets: ["ANY"]
+    base-amount: 300
+    per-player-amount: 200
+
+  breed_animals:
+    name: "Breed Farm Animals"
+    type: "BREED"
+    targets: ["ANY"]
+    base-amount: 10
+    per-player-amount: 8
+    
