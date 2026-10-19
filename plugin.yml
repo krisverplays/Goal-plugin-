@@ -1,0 +1,16 @@
+name: CommunityGoalPlugin
+version: 1.4.0
+main: CommunityGoalPlugin
+api-version: '1.20'
+author: CustomDev
+description: Automated Dynamic Server Goals for Paper and GeyserMC
+
+commands:
+  reward:
+    description: Claim your server goal contribution reward
+    usage: /reward
+  goaladmin:
+    description: Skip or reload server goals
+    usage: /goaladmin <skip|reload>
+    permission: communitygoal.admin
+    
